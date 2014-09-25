@@ -13,6 +13,17 @@
 三.加入ane到工程中：
 在项目的application-app.xml文件的android配置中，加入下面的代码：
 ```
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+<uses-permission android:name="android.permission.GET_TASKS" />
+```
+在application节点中添加下面配置：
+```
 <activity android:name="com.bodong.dianjinweb.downloadmanager.DianJinDownloadManager" 
 		android:configChanges="orientation|keyboardHidden" 
 		android:launchMode="singleTask" 
