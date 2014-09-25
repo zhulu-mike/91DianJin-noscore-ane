@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/adt-bundle-windows-x86_64-20140702/sdk/platforms/android-20/android.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Adobe/Adobe Flash Builder 4.7/eclipse/plugins/com.adobe.flash.compiler_4.7.0.349722/AIRSDK/lib/android/FlashRuntimeExtensions.jar"/>
+	<classpathentry kind="lib" path="libs/dianjin.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
